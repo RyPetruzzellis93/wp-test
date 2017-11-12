@@ -1,0 +1,102 @@
+
+/*
+ Theme Name:   J-Theme
+ Theme URI:    http://example.com/jenna/
+ Description:  A totally bare bones test theme to demonstrate what is required to 
+ 			   build a theme from scratch. This means add your own index, header, 
+ 			   footer, sidebar and functions file(s).
+ Author:       Daddyman
+ Author URI:   http://radvadnation.com
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Tags will be determined at a later date when the theme is fleshed out. 
+ 			   Note: I've turned off the auto-generated paragraph tags (used for Visual
+ 			   mode) in the functions.php file.
+*/
+
+body {
+	color:#000;
+}
+
+.wrapper {
+	max-width:960px;
+	margin:40px auto;
+	background-color:#ece;
+	padding:20px;
+}
+
+aside {
+	float:left;
+	margin-left:30px;
+}
+.site-title {
+	color: green;
+	text-align: center;
+}
+
+.tagline {
+	text-align: center;
+}
+.post-title {
+	color:#ff0000;
+}
+
+.post-container {
+	background-color: #efefef;
+	border-radius: 7px;
+	line-height:1.6em;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+.content {
+	float:left;
+	max-width:720px;
+	margin-bottom:30px;
+}
+
+.post-info {
+	color:#ce5fb6;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	background-color: #efefef;
+	border-radius: 7px;
+	padding:20px;
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+nav.header-menu, nav.footer-menu {
+	padding: 20px 0 ;
+}
+
+nav.header-menu ul, nav.footer-menu ul{
+	text-align: center;
+}
+nav.header-menu li, nav.footer-menu li{
+	display:inline-block;
+	margin-right:20px;
+}
+
+nav.header-menu li a, nav.footer-menu li a {
+	text-decoration: none;
+}
+
+nav.header-menu li a:hover, nav.footer-menu li a:hover  {
+	color:red;
+}
+
+/* basic WP image classes */
+.alignright {float:right; margin:0 0 1em 1em}
+.alignleft {float:left; margin:0 1em 1em 0}
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
